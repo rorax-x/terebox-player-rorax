@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "functions": {
+    "api/resolve.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/resolve",
+      "dest": "/api/resolve.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
+}
