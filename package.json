@@ -1,0 +1,15 @@
+{
+  "name": "teraplay",
+  "version": "1.0.0",
+  "description": "Terabox video player - self hosted",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
